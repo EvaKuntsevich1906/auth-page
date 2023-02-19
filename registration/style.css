@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: "Poppins";
+    color: #292731;
+}
+
+body {
+    display: flex;
+    width: 1440px;
+    height: 100%;
+
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 990px;
+    width: 1440px;
+    font-family: 'Poppins'normal 400 26;
+}
+
+.bluepart {
+
+    width: 50%;
+    height: 100%;
+    background-color: #E2F0FF;
+    font-family: 'Poppins'normal 400 26;
+}
+
+.bluepartcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 710px;
+    height: 592px;
+}
+
+.image {
+    background-image: url(./assets/man.png);
+    width: 524px;
+    height: 391px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bluepartcontent h1 {
+    width: 400px;
+    height: 68px;
+    text-align: center;
+    font: 600 26px normal "Poppins"
+}
+
+.bluepartcontent p {
+    width: 386px;
+    height: 54px;
+    text-align: center;
+    font: 400 16px normal "Poppins"
+}
+
+.whitepart {
+    background-color: white;
+    justify-content: center;
+}
+
+
+.whitepartcontent {
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 710px;
+    height: 592px;
+}
+
+.icons {
+    justify-content: start;
+    background-image: url(./assets/hand.svg);
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
