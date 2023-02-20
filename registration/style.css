@@ -24,7 +24,8 @@ body {
 }
 
 .bluepart {
-
+    display: flex;
+    align-items: center;
     width: 50%;
     height: 100%;
     background-color: #E2F0FF;
@@ -64,18 +65,21 @@ body {
 }
 
 .whitepart {
+    display: flex;
     background-color: white;
     justify-content: center;
+    align-items: center;
 }
 
 
 .whitepartcontent {
-    border: 4mm ridge rgba(211, 220, 50, .6);
+    padding-left: 135px;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 710px;
     height: 592px;
+
 }
 
 .icons {
@@ -85,4 +89,34 @@ body {
     height: 36px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.whitepartcontent h {
+    width: 239px;
+    height: 45px;
+    text-align: center;
+    font: 600 26px normal "Poppins"
+}
+
+
+.whitepartcontent p {
+    width: 292px;
+    height: 27px;
+    font: 400 16px normal "Poppins"
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 335px;
+}
+
+.form p {
+    width: 199px;
+    height: 24px;
+    font: 500 16px normal "Poppins"
+}
+.form input {
+    padding-top: 10px;
 }
