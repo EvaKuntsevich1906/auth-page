@@ -109,7 +109,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 400px;
+    height: 290px;
     margin-top: 50px;
 }
 
@@ -138,7 +138,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 440px;
-    margin-top:20px;
+    margin-top:15px;
     height: 54px;
     background: #4C70FF;
     border-radius: 8px;
