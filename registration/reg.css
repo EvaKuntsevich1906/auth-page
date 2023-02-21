@@ -132,17 +132,27 @@ body {
     justify-content: space-between;
     height: 82px;
 }
-
-.startbutton {
+.startbutton:not(:hover){
     display: flex;
     align-items: center;
     justify-content: center;
     width: 440px;
-    margin-top:20px;
+    margin-top:15px;
     height: 54px;
     background: #4C70FF;
     border-radius: 8px;
     color: #E2F0FF
+}
+.startbutton:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 440px;
+    margin-top:15px;
+    height: 54px;
+    background: #54adfb;
+    border-radius: 8px;
+    color: #1f0b48
 }
 
 .switching {
