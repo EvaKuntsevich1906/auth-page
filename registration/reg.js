@@ -1,8 +1,6 @@
 const startbutton = document.querySelector(".startbutton");
 
-
-
-function validationPassword() {
+function validationData() {
     
         try {
             const emailinput = document.querySelector(".emailinput").value;
@@ -21,5 +19,4 @@ function validationPassword() {
     
 }
 
-
-startbutton.addEventListener("click", validationPassword)
+startbutton.addEventListener("click", validationData)
